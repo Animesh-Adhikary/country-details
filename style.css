@@ -1,0 +1,90 @@
+body {
+  background: rgb(235, 235, 235);
+}
+.main {
+  width: 60%;
+  height: 600px;
+  margin: 7% auto;
+  border-radius: 10px;
+  background: white;
+}
+h2{
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+}
+.search {
+  width: 70%;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #ffff;
+}
+#input{
+  margin-left: 3%;
+  width: 86%;
+  height: 2.26rem;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right-width: 3px;
+  border-right-color: rgb(143, 145, 143);
+}
+button{
+  background: rgb(252, 252, 255);
+  padding: 6px 24px;
+  cursor: pointer;
+  border: none;
+}
+#container {
+  position: relative;
+  width: 50%;
+  height: 400px;
+  background: rgb(251, 251, 251);
+  margin: 5% auto;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.card{
+    position: relative;
+    top: 1.2rem;
+    width: 90%;
+    height: 360px;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: black;
+}
+.card h4{
+    font-size: 20px;
+    /* padding-top: px; */
+    color: rgb(139, 137, 137);
+    font-family: sans-serif;
+    text-align: center;
+}
+.cardHead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 40%;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 4px;
+    background: rgb(247, 243, 243);
+    text-align: center;
+    }
+h3{
+    font-size: 17px;
+    padding-top: 10px;
+    color: rgb(138, 134, 134);
+    font-family: sans-serif;
+}
+
+.cardHead img{
+    width: 60%;
+}
+.cardBody{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 60px;
+}
